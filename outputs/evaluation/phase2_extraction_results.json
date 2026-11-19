@@ -1,0 +1,27 @@
+{
+  "glintr100": {
+    "embeddings_shape": [
+      2000,
+      512
+    ],
+    "norm_min": 0.9999998807907104,
+    "norm_max": 1.0000001192092896,
+    "file_size_mb": 3.6,
+    "extraction_time_s": 461.9,
+    "validation_pass": true,
+    "csv_spot_check_pass": true
+  },
+  "arcface_internal": {
+    "embeddings_shape": [
+      2000,
+      512
+    ],
+    "norm_min": 0.9999998807907104,
+    "norm_max": 1.0000001192092896,
+    "file_size_mb": 3.6,
+    "extraction_time_s": 354.1,
+    "validation_pass": true,
+    "csv_spot_check_pass": true
+  },
+  "overall": "PASS"
+}

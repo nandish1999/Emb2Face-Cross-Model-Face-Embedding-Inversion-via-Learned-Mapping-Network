@@ -1,0 +1,5 @@
+label,env,transformers,diffusers,dtype,seed,cosine,time_s,image_path
+official_fp32_seed23,arc2face_official,4.36.0,0.29.2,fp32,23,0.7393,131.1,outputs/diagnostic/b1_official_fp32_seed23.png
+official_fp32_seed42,arc2face_official,4.36.0,0.29.2,fp32,42,0.7954,76.1,outputs/diagnostic/b1_official_fp32_seed42.png
+official_fp32_seed100,arc2face_official,4.36.0,0.29.2,fp32,100,0.8080,74.8,outputs/diagnostic/b1_official_fp32_seed100.png
+official_fp32_seed200,arc2face_official,4.36.0,0.29.2,fp32,200,0.8595,71.2,outputs/diagnostic/b1_official_fp32_seed200.png

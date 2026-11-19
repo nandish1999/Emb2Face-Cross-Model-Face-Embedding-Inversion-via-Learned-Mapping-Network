@@ -1,0 +1,89 @@
+# ============================================================
+# Emb2Face .gitignore — Final Upload Policy
+# ============================================================
+
+# ----- Private documentation and notes -----
+Z_MD/
+
+# ----- Kaggle credentials -----
+kaggle.json
+**/kaggle.json
+.kaggle/
+**/.kaggle/
+
+# ----- Environment / secrets / keys -----
+.env
+.env.*
+**/.env
+**/.env.*
+*.pem
+*.key
+*.p12
+*.pfx
+*credentials*.json
+*service-account*.json
+*secret*.json
+*token*.json
+
+# ----- Datasets (CASIA-WebFace — redistribution restricted) -----
+data/
+
+# ----- Precomputed training embeddings (3.5 GB) -----
+embeddings/
+
+# ----- Third-party model weights & repos (obtain separately) -----
+models/adaface/
+models/adaface_repo/
+models/antelopev2_arc2face/
+models/antelopev2_eval/
+models/arc2face/
+models/arc2face_repo/
+
+# ----- Duplicate / cached model packages -----
+models/models/
+models/insightface_cache/
+
+# ----- Reconstructed face images & dashboards (privacy & size) -----
+outputs/dashboard/
+outputs/diagnostic/
+outputs/reconstructed/
+outputs/reconstructed_*/
+outputs/*.zip
+outputs/*.html
+
+# ----- Python -----
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+dist/
+build/
+.pytest_cache/
+.mypy_cache/
+
+# ----- Jupyter -----
+.ipynb_checkpoints/
+
+# ----- Virtual environments -----
+venv/
+.venv/
+env/
+ENV/
+.conda/
+
+# ----- OS metadata -----
+.DS_Store
+Thumbs.db
+
+# ----- IDE -----
+.vscode/
+.idea/
+
+# ----- Cache -----
+.cache/
+
+# ----- Logs and temporary files -----
+logs/
+*.log
+*.tmp
+*.temp

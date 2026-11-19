@@ -1,0 +1,10 @@
+identity,image_name,method,cosine_similarity_original_vs_generated,original_image_path,generated_image_path
+id_10092_img0,id_10092_img0.png,baseline,0.1431,outputs/reconstructed/originals/id_10092_img0.png,outputs/reconstructed/baseline/id_10092_img0.png
+id_10092_img0,id_10092_img0.png,unmapped,-0.0261,outputs/reconstructed/originals/id_10092_img0.png,outputs/reconstructed/unmapped/id_10092_img0.png
+id_10092_img0,id_10092_img0.png,mapped,0.0536,outputs/reconstructed/originals/id_10092_img0.png,outputs/reconstructed/mapped/id_10092_img0.png
+id_10365_img0,id_10365_img0.png,baseline,0.0529,outputs/reconstructed/originals/id_10365_img0.png,outputs/reconstructed/baseline/id_10365_img0.png
+id_10365_img0,id_10365_img0.png,unmapped,0.0008,outputs/reconstructed/originals/id_10365_img0.png,outputs/reconstructed/unmapped/id_10365_img0.png
+id_10365_img0,id_10365_img0.png,mapped,0.0251,outputs/reconstructed/originals/id_10365_img0.png,outputs/reconstructed/mapped/id_10365_img0.png
+id_10388_img0,id_10388_img0.png,baseline,0.0552,outputs/reconstructed/originals/id_10388_img0.png,outputs/reconstructed/baseline/id_10388_img0.png
+id_10388_img0,id_10388_img0.png,unmapped,-0.0058,outputs/reconstructed/originals/id_10388_img0.png,outputs/reconstructed/unmapped/id_10388_img0.png
+id_10388_img0,id_10388_img0.png,mapped,-0.0374,outputs/reconstructed/originals/id_10388_img0.png,outputs/reconstructed/mapped/id_10388_img0.png

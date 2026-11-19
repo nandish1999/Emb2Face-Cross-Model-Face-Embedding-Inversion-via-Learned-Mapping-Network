@@ -1,0 +1,37 @@
+# ============================================================
+# Emb2Face — Python Dependencies
+# ============================================================
+# Install with:
+#   pip install -r requirements.txt
+#
+# PyTorch (CPU) must be installed separately first:
+#   pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cpu
+# ============================================================
+
+# ----- Deep Learning / Vision -----
+insightface==0.7.3
+onnxruntime                    # CPU-only; replaces onnxruntime-gpu if needed
+diffusers>=0.38.0
+transformers>=5.0.0
+accelerate>=1.0.0
+safetensors
+
+# ----- Image Processing -----
+opencv-python-headless>=4.8.0
+Pillow>=10.0.0
+
+# ----- Scientific / ML -----
+numpy>=1.24.0
+scipy>=1.10.0
+pandas>=2.0.0
+scikit-learn>=1.3.0
+matplotlib>=3.7.0
+
+# ----- Utilities -----
+tqdm
+python-dotenv
+PyYAML
+kaggle
+
+# ----- Optional (for .rec format datasets) -----
+# mxnet                        # Only if using .rec format CASIA-WebFace

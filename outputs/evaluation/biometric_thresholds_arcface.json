@@ -1,0 +1,21 @@
+{
+  "eer": 0.085936,
+  "eer_pct": 8.59,
+  "eer_threshold": 0.081498,
+  "far_1pct_threshold": 0.143171,
+  "far_1pct_actual_far": 0.009899,
+  "far_1pct_actual_frr": 0.098,
+  "far_01pct_threshold": 0.218628,
+  "far_01pct_actual_far": 0.000808,
+  "far_01pct_actual_frr": 0.117,
+  "genuine_count": 1000,
+  "impostor_count": 4950,
+  "genuine_mean": 0.492355,
+  "genuine_std": 0.213518,
+  "genuine_min": -0.138627,
+  "genuine_max": 1.0,
+  "impostor_mean": 0.00445,
+  "impostor_std": 0.056802,
+  "impostor_min": -0.20632,
+  "impostor_max": 0.282968
+}

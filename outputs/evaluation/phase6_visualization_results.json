@@ -1,0 +1,13 @@
+{
+  "overall": "PASS",
+  "figures": [
+    "outputs/evaluation/figures/score_distributions_glintr100.png",
+    "outputs/evaluation/figures/det_curve_glintr100.png",
+    "outputs/evaluation/figures/roc_curve_glintr100.png",
+    "outputs/evaluation/figures/score_distributions_arcface.png",
+    "outputs/evaluation/figures/det_curve_arcface.png",
+    "outputs/evaluation/figures/roc_curve_arcface.png"
+  ],
+  "summary_csv": "outputs/evaluation/biometric_summary.csv",
+  "summary_md": "outputs/evaluation/biometric_summary.md"
+}

@@ -1,0 +1,7 @@
+method,eval_type,mean,std,min,max,n
+baseline,aligned,0.0295,0.0730,-0.1012,0.1104,9
+baseline,naive,0.0199,0.0666,-0.0704,0.1431,10
+unmapped,aligned,0.0006,0.0791,-0.1289,0.1584,8
+unmapped,naive,-0.0058,0.0763,-0.1490,0.1119,10
+mapped,aligned,-0.0113,0.0699,-0.1571,0.0574,8
+mapped,naive,0.0189,0.0762,-0.1437,0.0999,10
